@@ -1,0 +1,15 @@
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+var found = false;
+
+for (var i = 0; i < arr.length; i++) {
+    if (arr[i] == 5) {
+        found = true;
+    }
+}
+
+if (found) {
+    document.writeln("Number Found");
+} else {
+    document.writeln("Number Not Found")
+}
