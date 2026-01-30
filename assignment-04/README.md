@@ -19,3 +19,7 @@ Roll Number: _______
 - Output screen par show karo.
 
 > ⚠️ Note: Assignment check student by student kiya jayega.
+
+![Output format](./images/image.png)
+
+Function will be called directly, not using onclick
