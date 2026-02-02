@@ -1,6 +1,11 @@
 function extractNumber(value) {
     var displayValue = document.getElementById("display-value");
-    displayValue.innerHTML += value
+    if (displayValue.innerHTML == 0) {
+        displayValue.innerHTML = ""
+        displayValue.innerHTML += value
+    } else {
+        displayValue.innerHTML += value
+    }
 }
 
 function calculate() {
@@ -13,7 +18,7 @@ function calculate() {
 function clearAll() {
     var displayValue = document.getElementById("display-value");
 
-    displayValue.innerHTML = ""
+    displayValue.innerHTML = 0
 }
 
 function del() {
