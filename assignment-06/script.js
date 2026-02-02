@@ -15,3 +15,15 @@ function clearAll() {
 
     displayValue.innerHTML = ""
 }
+
+function del() {
+    var displayValue = document.getElementById("display-value");
+
+    displayValueArray = displayValue.innerHTML.split("");
+
+    displayValueArray.pop();
+
+    displayValueArray = displayValueArray.join("");
+
+    displayValue.innerHTML = displayValueArray;
+}
