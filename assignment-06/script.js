@@ -9,3 +9,9 @@ function calculate() {
 
     displayValue.innerHTML = result
 }
+
+function clearAll() {
+    var displayValue = document.getElementById("display-value");
+
+    displayValue.innerHTML = ""
+}
