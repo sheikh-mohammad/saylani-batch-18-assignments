@@ -33,7 +33,7 @@ body {
     justify-content: flex-end;
 }
 
-.display-value {
+#display-value {
     color: #ffffff;
     font-size: 48px;
     font-weight: 300;

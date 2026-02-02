@@ -9,12 +9,12 @@
 <body>
     <div class="calculator">
         <div class="display">
-            <div class="display-value">0</div>
+            <div id="display-value"></div>
         </div>
         
         <div class="buttons">
-            <button class="btn-function" onclick="extractNumber('AC')">AC</button>
-            <button class="btn-function" onclick="extractNumber('DEL')">DEL</button>
+            <button class="btn-function">AC</button>
+            <button class="btn-function">DEL</button>
             <button class="btn-operator" onclick="extractNumber('/')">/</button>
             <button class="btn-operator" onclick="extractNumber('*')">*</button>
             
@@ -31,7 +31,7 @@
             <button class="btn-number" onclick="extractNumber(1)">1</button>
             <button class="btn-number" onclick="extractNumber(2)">2</button>
             <button class="btn-number" onclick="extractNumber(3)">3</button>
-            <button class="btn-operator btn-equals" onclick="extractNumber('=')">=</button>
+            <button class="btn-operator btn-equals" onclick="calculate()">=</button>
             
             <button class="btn-number btn-zero">0</button>
             <button class="btn-decimal" onclick="extractNumber('.')">.</button>
